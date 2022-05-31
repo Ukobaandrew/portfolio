@@ -1,9 +1,9 @@
-var andy=document.getElementsByClassName("items")
-var eli=document.getElementsByClassName("menuBtn")
-var isreal=document.getElementsByClassName("menu")
-if (andy.style.width=250px){
-    eli.style.display
-}else (andy.style.width=-250px){
-    andy=
-
-}
+let menubtn = document.getElementById("menu");
+menubtn.onclick = function () {
+  let menu = document.querySelector(".items");
+  if (menu.style.display == "none") {
+    menu.style.display = "block";
+  } else {
+    menu.style.display = "none";
+  }
+};
