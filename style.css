@@ -66,7 +66,7 @@ span{
 .red{
     text-decoration: underline;
 }
-.sentence{
+.se1ntence{
     font-weight: lighter;
     color: #cccc;
 
@@ -86,6 +86,7 @@ span{
 background: #383e4570;
 border-radius: 10px;
 }
+
 .card p{
     font-size: 20px;
     padding:20px 15px;
@@ -97,7 +98,50 @@ border-radius: 10px;
 .myboy{
     max-width: 100%;
 }
+.container{
+    margin-top: 120px;
+    padding:  auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.headin{
+    padding-left: 100px;
+  
+}
+.imges{
+    padding-left: 200px;
+}
+.text{
+    padding-left: 100px;
+    font-family: popins;
+    color: #cccc;
+}
+.heading{
+    color: #fff;
+}
+.imagery{
+    height: 400px;
+    width:500px;
+    max-height: 100%;
+}
+.button{
+    background-color:#FFB742;
+    padding: 15px 30px 15px 30px;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 50px;
+    color: black;
 
+}
+.star{
+    height: 120px;
+    width: 120px;
+    max-height: 100%;
+   background-color: #383E45;
+   padding: 15px;
+}
 
 @media only screen and (max-width:600px){
   .flex{
